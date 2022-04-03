@@ -2,8 +2,8 @@ const hello = 'Hello World';
 console.log('Test:', hello);
 
 const food = {
-    name: 'Pinaattilettu',
-    type: 'Dinner'
+    'name': 'Pinaattilettu',
+    'type': 'Dinner'
 }
 console.log(food.name, food.type);
 
@@ -11,12 +11,12 @@ console.log(food.name, food.type);
 //array of objects
 let dinner = [
     {
-        name: 'Spinach Crepes',
-        type: 'Dinner'
+        'name': 'Spinach Crepes',
+        'type': 'Dinner'
     },
     {
-        name: 'Fish',
-        type: 'Dinner'
+        'name': 'Fish',
+        'type': 'Dinner'
     }
 ]
 

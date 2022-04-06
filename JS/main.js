@@ -1,23 +1,10 @@
-const hello = 'Hello World';
-console.log('Test:', hello);
 
-const food = {
-    'name': 'Pinaattilettu',
-    'type': 'Dinner'
-}
-console.log(food.name, food.type);
+console.log(food)
 
-
-//array of objects
-let dinner = [
-    {
-        'name': 'Spinach Crepes',
-        'type': 'Dinner'
-    },
-    {
-        'name': 'Fish',
-        'type': 'Dinner'
+function printAll(array) {
+    let output = "";
+    for (let i of array) {
+        output += `Name: ${i.name} Type: ${i.type}<br>`;
     }
-]
-
-console.log(dinner)
+    document.getElementById('items').innerHTML = output;
+}

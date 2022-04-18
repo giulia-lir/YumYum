@@ -1,5 +1,5 @@
 
-console.log(food)
+console.log(food2)
 
 function printAll(array) {
     let output = "";

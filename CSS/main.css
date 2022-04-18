@@ -1,3 +1,8 @@
 body {
     background-color: antiquewhite;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table th{
+    border-bottom: 1px solid black;
 }
